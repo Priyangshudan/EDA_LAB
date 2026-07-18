@@ -34,4 +34,5 @@ print("\n")
 #Q-3) Task-3
 for col in df.columns:
     missing_count = df[col].isnull().sum()
-    print(f"Column '{col}': {missing_count} missing values")
+    print("Column",col,":",missing_count,"missing values")
+print("\n")
